@@ -24,12 +24,12 @@ export default function LuminaireSoundLabPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-neutral-950 text-neutral-100">
+    <div className="min-h-screen w-full bg-black text-neutral-100">
       <header className="border-b border-white/10">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
           <div>
-            <div className="text-xs uppercase tracking-[0.3em] text-neutral-400">Luminaire</div>
-            <div className="text-lg font-semibold tracking-wide">Sound Lab</div>
+            <div className="text-sm uppercase tracking-widest text-neutral-400">Luminaire</div>
+            <div className="text-lg font-semibold">Sound Lab</div>
           </div>
           <nav className="hidden gap-8 text-sm text-neutral-300 md:flex">
             <a href="#packs" className="transition hover:text-white">Packs</a>
