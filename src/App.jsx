@@ -95,7 +95,7 @@ export default function LuminaireSoundLabPage() {
               </div>
               <div className="mb-6 h-24 rounded-2xl bg-gradient-to-r from-white/5 via-white/10 to-white/5" />
               <audio controls className="w-full">
-                <source src="" />
+                <source src="/audio/SV_OB6_Test_1.mp3" type="audio/mpeg" />
               </audio>
               <p className="mt-4 text-sm leading-6 text-neutral-400">
                 Replace this with your own preview MP3 to let visitors hear the
