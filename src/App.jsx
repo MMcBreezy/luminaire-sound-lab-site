@@ -27,14 +27,24 @@ export default function LuminaireSoundLabPage() {
     <div className="min-h-screen w-full bg-black text-neutral-100">
       <header className="border-b border-white/10">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
-          <div>
-            <div className="text-sm uppercase tracking-widest text-neutral-400">Luminaire</div>
-            <div className="text-lg font-semibold">Sound Lab</div>
+          <div className="flex flex-col leading-none gap-[2px]">
+            <span className="text-[10px] uppercase tracking-[0.45em] text-neutral-500 glow-text">
+              Luminaire
+            </span>
+            <span className="text-xl font-semibold tracking-tight text-white">
+              Sound Lab
+            </span>
           </div>
           <nav className="hidden gap-8 text-sm text-neutral-300 md:flex">
-            <a href="#packs" className="transition hover:text-white">Packs</a>
-            <a href="#about" className="transition hover:text-white">About</a>
-            <a href="#contact" className="transition hover:text-white">Contact</a>
+            <a href="#packs" className="transition hover:text-white">
+              Packs
+            </a>
+            <a href="#about" className="transition hover:text-white">
+              About
+            </a>
+            <a href="#contact" className="transition hover:text-white">
+              Contact
+            </a>
           </nav>
         </div>
       </header>
@@ -43,13 +53,16 @@ export default function LuminaireSoundLabPage() {
         <section className="mx-auto grid max-w-6xl gap-12 px-6 py-20 md:grid-cols-[1.2fr_0.8fr] md:py-28">
           <div className="space-y-8">
             <div className="space-y-4">
-              <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">Sample Packs • Presets • Sound Design</p>
+              <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">
+                Sample Packs • Presets • Sound Design
+              </p>
               <h1 className="max-w-3xl text-4xl font-semibold leading-tight md:text-6xl">
                 Original sounds for synthwave, lo-fi, ambient, and game audio.
               </h1>
               <p className="max-w-2xl text-base leading-7 text-neutral-300 md:text-lg">
-                Luminaire Sound Lab creates focused sound tools for producers and developers: synth presets,
-                one-shots, loops, textures, and cinematic audio resources built for modern workflows.
+                Luminaire Sound Lab creates focused sound tools for producers
+                and developers: synth presets, one-shots, loops, textures, and
+                cinematic audio resources built for modern workflows.
               </p>
             </div>
 
@@ -77,13 +90,16 @@ export default function LuminaireSoundLabPage() {
               <span>Audio Preview</span>
             </div>
             <div className="rounded-[1.5rem] border border-dashed border-white/15 bg-neutral-900/70 p-6">
-              <div className="mb-4 text-lg font-medium">Neon Synthwave Presets</div>
+              <div className="mb-4 text-lg font-medium">
+                Neon Synthwave Presets
+              </div>
               <div className="mb-6 h-24 rounded-2xl bg-gradient-to-r from-white/5 via-white/10 to-white/5" />
               <audio controls className="w-full">
                 <source src="" />
               </audio>
               <p className="mt-4 text-sm leading-6 text-neutral-400">
-                Replace this with your own preview MP3 to let visitors hear the sound before buying.
+                Replace this with your own preview MP3 to let visitors hear the
+                sound before buying.
               </p>
             </div>
           </div>
@@ -92,16 +108,28 @@ export default function LuminaireSoundLabPage() {
         <section className="border-y border-white/10 bg-white/[0.02]">
           <div className="mx-auto grid max-w-6xl gap-6 px-6 py-8 text-sm text-neutral-300 md:grid-cols-3">
             <div className="rounded-2xl border border-white/10 p-5">
-              <div className="mb-2 text-xs uppercase tracking-[0.25em] text-neutral-500">Focus</div>
-              <div className="text-base font-medium text-white">Curated sound design</div>
+              <div className="mb-2 text-xs uppercase tracking-[0.25em] text-neutral-500">
+                Focus
+              </div>
+              <div className="text-base font-medium text-white">
+                Curated sound design
+              </div>
             </div>
             <div className="rounded-2xl border border-white/10 p-5">
-              <div className="mb-2 text-xs uppercase tracking-[0.25em] text-neutral-500">Formats</div>
-              <div className="text-base font-medium text-white">WAV, presets, textures</div>
+              <div className="mb-2 text-xs uppercase tracking-[0.25em] text-neutral-500">
+                Formats
+              </div>
+              <div className="text-base font-medium text-white">
+                WAV, presets, textures
+              </div>
             </div>
             <div className="rounded-2xl border border-white/10 p-5">
-              <div className="mb-2 text-xs uppercase tracking-[0.25em] text-neutral-500">Use Cases</div>
-              <div className="text-base font-medium text-white">Music production and game audio</div>
+              <div className="mb-2 text-xs uppercase tracking-[0.25em] text-neutral-500">
+                Use Cases
+              </div>
+              <div className="text-base font-medium text-white">
+                Music production and game audio
+              </div>
             </div>
           </div>
         </section>
@@ -109,11 +137,16 @@ export default function LuminaireSoundLabPage() {
         <section id="packs" className="mx-auto max-w-6xl px-6 py-20">
           <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
             <div>
-              <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">Featured Packs</p>
-              <h2 className="text-3xl font-semibold md:text-4xl">Built for distinct creative worlds.</h2>
+              <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
+                Featured Packs
+              </p>
+              <h2 className="text-3xl font-semibold md:text-4xl">
+                Built for distinct creative worlds.
+              </h2>
             </div>
             <p className="max-w-xl text-sm leading-6 text-neutral-400">
-              Keep this section intentionally small. A focused storefront feels more premium than a crowded catalog.
+              Keep this section intentionally small. A focused storefront feels
+              more premium than a crowded catalog.
             </p>
           </div>
 
@@ -123,9 +156,13 @@ export default function LuminaireSoundLabPage() {
                 key={product.title}
                 className="flex h-full flex-col rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-lg shadow-black/20"
               >
-                <div className="mb-4 text-xs uppercase tracking-[0.3em] text-neutral-500">{product.type}</div>
+                <div className="mb-4 text-xs uppercase tracking-[0.3em] text-neutral-500">
+                  {product.type}
+                </div>
                 <h3 className="mb-3 text-2xl font-medium">{product.title}</h3>
-                <p className="mb-6 flex-1 text-sm leading-6 text-neutral-300">{product.description}</p>
+                <p className="mb-6 flex-1 text-sm leading-6 text-neutral-300">
+                  {product.description}
+                </p>
                 <div className="mb-6 space-y-2 text-sm text-neutral-400">
                   {product.specs.map((spec) => (
                     <div key={spec}>• {spec}</div>
@@ -152,41 +189,44 @@ export default function LuminaireSoundLabPage() {
         <section id="about" className="border-t border-white/10">
           <div className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-[0.9fr_1.1fr]">
             <div>
-              <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">About</p>
-              <h2 className="text-3xl font-semibold md:text-4xl">A focused sound design studio.</h2>
+              <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
+                About
+              </p>
+              <h2 className="text-3xl font-semibold md:text-4xl">
+                A focused sound design studio.
+              </h2>
             </div>
             <div className="space-y-5 text-base leading-8 text-neutral-300">
               <p>
-                Luminaire Sound Lab is a sound design brand creating packs for producers working in synthwave,
-                lo-fi, ambient, and cinematic styles. The goal is simple: make useful tools that feel inspiring,
-                polished, and immediately musical.
+                Luminaire Sound Lab is a sound design brand creating packs for
+                producers working in synthwave, lo-fi, ambient, and cinematic
+                styles. The goal is simple: make useful tools that feel
+                inspiring, polished, and immediately musical.
               </p>
               <p>
-                You can use this space for your short brand story, your production philosophy, and the kinds of
-                artists or developers your sounds are made for.
+                You can use this space for your short brand story, your
+                production philosophy, and the kinds of artists or developers
+                your sounds are made for.
               </p>
             </div>
           </div>
         </section>
 
-        <section id="contact" className="border-t border-white/10 bg-white/[0.02]">
-          <div className="mx-auto max-w-6xl px-6 py-20">
-            <div className="grid gap-8 md:grid-cols-[1fr_auto] md:items-end">
-              <div>
-                <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">Contact</p>
-                <h2 className="mb-4 text-3xl font-semibold md:text-4xl">Let’s build your storefront.</h2>
-                <p className="max-w-2xl text-base leading-7 text-neutral-300">
-                  Replace this with your contact email, newsletter signup, and links to your store, YouTube,
-                  Instagram, or Discord.
-                </p>
-              </div>
-              <a
-                href="mailto:hello@luminairesoundlab.com"
-                className="rounded-2xl border border-white/20 bg-white px-5 py-3 text-sm font-medium text-black transition hover:opacity-90"
-              >
-                hello@luminairesoundlab.com
-              </a>
-            </div>
+        <section
+          id="contact"
+          className="border-t border-white/10 bg-white/[0.02]"
+        >
+          <div className="mx-auto max-w-6xl px-6 py-20 flex flex-col items-center gap-6">
+            <p className="text-xs uppercase tracking-[0.35em] text-neutral-400">
+              Contact
+            </p>
+
+            <a
+              href="mailto:hello@luminairesoundlab.com"
+              className="rounded-full border border-white/20 bg-white px-8 py-3 text-sm font-medium text-black transition hover:scale-[1.03] hover:shadow-lg hover:shadow-white/10"
+            >
+              hello@luminairesoundlab.com
+            </a>
           </div>
         </section>
       </main>
@@ -195,9 +235,15 @@ export default function LuminaireSoundLabPage() {
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-6 py-8 text-sm text-neutral-500 md:flex-row md:items-center md:justify-between">
           <div>© 2026 Luminaire Sound Lab</div>
           <div className="flex gap-6">
-            <a href="#packs" className="transition hover:text-neutral-300">Packs</a>
-            <a href="#about" className="transition hover:text-neutral-300">About</a>
-            <a href="#contact" className="transition hover:text-neutral-300">Contact</a>
+            <a href="#packs" className="transition hover:text-neutral-300">
+              Packs
+            </a>
+            <a href="#about" className="transition hover:text-neutral-300">
+              About
+            </a>
+            <a href="#contact" className="transition hover:text-neutral-300">
+              Contact
+            </a>
           </div>
         </div>
       </footer>
