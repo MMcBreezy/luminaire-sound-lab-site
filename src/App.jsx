@@ -1,11 +1,11 @@
 export default function LuminaireSoundLabPage() {
   const products = [
     {
-      title: "Neon Synthwave Presets",
+      title: "OB-6 Synthwave Presets",
       type: "Preset Pack",
       description:
-        "Retro leads, basses, pads, and arps designed for cinematic synthwave and night-drive production.",
-      specs: ["60 presets", "Serum + Vital", "Synthwave / Retrowave"],
+        "Retro leads, basses, pads, and arps designed for cinematic synthwave and night-drive production with Sequential OB-6.",
+      specs: ["60 presets", "Sequential OB-6", "Synthwave / Retrowave"],
     },
     {
       title: "Lo-Fi Tape Drums",
@@ -97,10 +97,6 @@ export default function LuminaireSoundLabPage() {
               <audio controls className="w-full">
                 <source src="/audio/SV_OB6_Test_1.mp3" type="audio/mpeg" />
               </audio>
-              <p className="mt-4 text-sm leading-6 text-neutral-400">
-                Replace this with your own preview MP3 to let visitors hear the
-                sound before buying.
-              </p>
             </div>
           </div>
         </section>
@@ -120,7 +116,7 @@ export default function LuminaireSoundLabPage() {
                 Formats
               </div>
               <div className="text-base font-medium text-white">
-                WAV, presets, textures
+                WAV, presets
               </div>
             </div>
             <div className="rounded-2xl border border-white/10 p-5">
@@ -135,7 +131,7 @@ export default function LuminaireSoundLabPage() {
         </section>
 
         <section id="packs" className="mx-auto max-w-6xl px-6 py-20">
-          <div className="mb-12 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
+          <div className="mb-14">
             <div>
               <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
                 Featured Packs
@@ -144,10 +140,6 @@ export default function LuminaireSoundLabPage() {
                 Built for distinct creative worlds.
               </h2>
             </div>
-            <p className="max-w-xl text-sm leading-6 text-neutral-400">
-              Keep this section intentionally small. A focused storefront feels
-              more premium than a crowded catalog.
-            </p>
           </div>
 
           <div className="grid gap-6 md:grid-cols-3">
@@ -187,26 +179,18 @@ export default function LuminaireSoundLabPage() {
         </section>
 
         <section id="about" className="border-t border-white/10">
-          <div className="mx-auto grid max-w-6xl gap-10 px-6 py-20 md:grid-cols-[0.9fr_1.1fr]">
+          <div className="mx-auto max-w-4xl px-6 py-25">
             <div>
-              <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
+              <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">
                 About
               </p>
-              <h2 className="text-3xl font-semibold md:text-4xl">
+              <h2 className="text-3xl font-semibold">
                 A focused sound design studio.
               </h2>
             </div>
-            <div className="space-y-5 text-base leading-8 text-neutral-300">
+            <div className="space-y-5 mt-8 text-base leading-8 text-neutral-300">
               <p>
-                Luminaire Sound Lab is a sound design brand creating packs for
-                producers working in synthwave, lo-fi, ambient, and cinematic
-                styles. The goal is simple: make useful tools that feel
-                inspiring, polished, and immediately musical.
-              </p>
-              <p>
-                You can use this space for your short brand story, your
-                production philosophy, and the kinds of artists or developers
-                your sounds are made for.
+                Luminaire Sound Lab creates sound packs for video game sound designers and music producers in synthwave, lo‑fi, ambient, and cinematic styles. The mission: build tools that are inspiring, polished, and instantly musical
               </p>
             </div>
           </div>
