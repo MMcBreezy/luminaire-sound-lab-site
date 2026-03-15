@@ -91,9 +91,9 @@ export default function LuminaireSoundLabPage() {
             </div>
             <div className="rounded-[1.5rem] border border-dashed border-white/15 bg-neutral-900/70 p-6">
               <div className="mb-4 text-lg font-medium">
-                Neon Synthwave Presets
+                OB-6 Synthwave Presets
               </div>
-              <div className="mb-6 h-24 rounded-2xl bg-gradient-to-r from-white/5 via-white/10 to-white/5" />
+              <div className="mb-6 h-24 rounded-2xl bg-[url('/IMG_7743.JPG')] bg-cover bg-center" />
               <audio controls className="w-full">
                 <source src="/audio/SV_OB6_Test_1.mp3" type="audio/mpeg" />
               </audio>
