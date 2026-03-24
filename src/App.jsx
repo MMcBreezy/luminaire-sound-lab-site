@@ -57,7 +57,7 @@ export default function LuminaireSoundLabPage() {
                 Sample Packs • Presets • Sound Design
               </p>
               <h1 className="max-w-3xl text-4xl font-semibold leading-tight md:text-6xl">
-                Original sounds for synthwave, lo-fi, ambient, and game audio.
+                Original sounds for modern electronic music and game audio.
               </h1>
               <p className="max-w-2xl text-base leading-7 text-neutral-300 md:text-lg">
                 Luminaire Sound Lab creates focused sound tools for producers
@@ -190,7 +190,10 @@ export default function LuminaireSoundLabPage() {
             </div>
             <div className="space-y-5 mt-8 text-base leading-8 text-neutral-300">
               <p>
-                Luminaire Sound Lab creates sound packs for video game sound designers and music producers in synthwave, lo‑fi, ambient, and cinematic styles. The mission: build tools that are inspiring, polished, and instantly musical
+                Luminaire Sound Lab creates sound packs for video game sound
+                designers and music producers in synthwave, lo‑fi, ambient, and
+                cinematic styles. The mission: build tools that are inspiring,
+                polished, and instantly musical
               </p>
             </div>
           </div>
