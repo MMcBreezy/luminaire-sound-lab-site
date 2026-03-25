@@ -162,7 +162,7 @@ export default function LuminaireSoundLabPage() {
                 </div>
                 <div className="flex gap-3">
                   <a
-                    href="https://gumroad.com"
+                    href="https://luminairesoundlab.gumroad.com/"
                     target="_blank"
                     rel="noreferrer"
                     className="rounded-2xl border border-white/15 bg-white px-4 py-2 text-sm font-medium text-black transition hover:opacity-90"
