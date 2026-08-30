@@ -60,21 +60,22 @@ export default function LuminaireSoundLabPage() {
                 Original sounds for modern electronic music and game audio.
               </h1>
               <p className="max-w-2xl text-base leading-7 text-neutral-300 md:text-lg">
-                Luminaire Sound Lab creates focused sound tools for producers
-                and developers: synth presets, one-shots, loops, textures, and
-                cinematic audio resources built for modern workflows.
+                Luminaire Sound Lab creates focused sound tools for audio
+                producers and sound designers: synth presets, one-shots, loops,
+                textures, and cinematic audio resources built for modern
+                workflows.
               </p>
             </div>
 
-            <div className="flex flex-wrap gap-4">
-              <a
+            <div className="flex flex-wrap justify-center gap-4">
+              {/* <a
                 href="#packs"
                 className="rounded-2xl border border-white/20 bg-white px-5 py-3 text-sm font-medium text-black transition hover:opacity-90"
               >
                 Explore Packs
-              </a>
+              </a> */}
               <a
-                href="https://gumroad.com"
+                href="https://luminairesoundlab.gumroad.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="rounded-2xl border border-white/20 px-5 py-3 text-sm font-medium text-white transition hover:bg-white/5"
@@ -86,18 +87,24 @@ export default function LuminaireSoundLabPage() {
 
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/30 backdrop-blur">
             <div className="mb-6 flex items-center justify-between text-xs uppercase tracking-[0.25em] text-neutral-400">
-              <span>Featured Demo</span>
-              <span>Audio Preview</span>
+              <span>Featured</span>
+              {/* <span>Audio Preview</span> */}
             </div>
-            <div className="rounded-[1.5rem] border border-dashed border-white/15 bg-neutral-900/70 p-6">
-              <div className="mb-4 text-lg font-medium">
-                OB-6 Synthwave Presets
+            <a
+              href="https://luminairesoundlab.gumroad.com/l/Lost_Horizons"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="rounded-[1.5rem] border border-dashed border-white/15 bg-neutral-900/70 p-6">
+                <div className="mb-4 text-lg font-medium">
+                  Free Waves StudioVerse Instruments Presets
+                </div>
+                <div className="mb-6 h-44 rounded-2xl bg-[url('/SVI_Element_Preview.png')] bg-cover bg-center" />
+                {/* <audio controls className="w-full">
+                  <source src="/audio/SV_OB6_Test_1.mp3" type="audio/mpeg" />
+                </audio> */}
               </div>
-              <div className="mb-6 h-24 rounded-2xl bg-[url('/IMG_7743.JPG')] bg-cover bg-center" />
-              <audio controls className="w-full">
-                <source src="/audio/SV_OB6_Test_1.mp3" type="audio/mpeg" />
-              </audio>
-            </div>
+            </a>
           </div>
         </section>
 
@@ -130,7 +137,7 @@ export default function LuminaireSoundLabPage() {
           </div>
         </section>
 
-        <section id="packs" className="mx-auto max-w-6xl px-6 py-20">
+        {/* <section id="packs" className="mx-auto max-w-6xl px-6 py-20">
           <div className="mb-14">
             <div>
               <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
@@ -176,7 +183,7 @@ export default function LuminaireSoundLabPage() {
               </article>
             ))}
           </div>
-        </section>
+        </section> */}
 
         <section id="about" className="border-t border-white/10">
           <div className="mx-auto max-w-4xl px-6 py-25">
