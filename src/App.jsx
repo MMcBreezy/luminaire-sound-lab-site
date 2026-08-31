@@ -108,7 +108,7 @@ export default function LuminaireSoundLabPage() {
           </div>
         </section>
 
-        <section className="border-y border-white/10 bg-white/[0.02]">
+        {/* <section className="border-y border-white/10 bg-white/[0.02]">
           <div className="mx-auto grid max-w-6xl gap-6 px-6 py-8 text-sm text-neutral-300 md:grid-cols-3">
             <div className="rounded-2xl border border-white/10 p-5">
               <div className="mb-2 text-xs uppercase tracking-[0.25em] text-neutral-500">
@@ -135,7 +135,7 @@ export default function LuminaireSoundLabPage() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* <section id="packs" className="mx-auto max-w-6xl px-6 py-20">
           <div className="mb-14">
