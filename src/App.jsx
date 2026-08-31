@@ -208,7 +208,7 @@ export default function LuminaireSoundLabPage() {
 
         <section
           id="contact"
-          className="border-t border-white/10 bg-white/[0.02]"
+          className="border-t border-white/10"
         >
           <div className="mx-auto max-w-6xl px-6 py-20 flex flex-col items-center gap-6">
             <p className="text-xs uppercase tracking-[0.35em] text-neutral-400">
