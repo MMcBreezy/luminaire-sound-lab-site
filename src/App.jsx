@@ -99,7 +99,7 @@ export default function LuminaireSoundLabPage() {
                 <div className="mb-4 text-lg font-medium">
                   Free Waves StudioVerse Instruments Presets
                 </div>
-                <div className="mb-6 h-40 rounded-2xl bg-[url('/SVI_Element_Preview.png')] bg-cover bg-center" />
+                <div className="mb-6 h-46 rounded-2xl bg-[url('/SVI_Element_Preview.png')] bg-cover bg-center" />
                 {/* <audio controls className="w-full">
                   <source src="/audio/SV_OB6_Test_1.mp3" type="audio/mpeg" />
                 </audio> */}
