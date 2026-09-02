@@ -91,7 +91,7 @@ export default function LuminaireSoundLabPage() {
               {/* <span>Audio Preview</span> */}
             </div>
             <a
-              href="https://luminairesoundlab.gumroad.com/l/Lost_Horizons"
+              href="https://luminairesoundlab.gumroad.com/l/SVI_Element_Free_Preset_Pack"
               target="_blank"
               rel="noreferrer"
             >
