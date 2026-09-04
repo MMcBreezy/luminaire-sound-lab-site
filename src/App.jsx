@@ -1,7 +1,7 @@
 export default function LuminaireSoundLabPage() {
   const products = [
     {
-      title: "Free Waves StudioVerse Instruments Presets",
+      title: "[Free] Waves StudioVerse Instruments Presets",
       type: "Preset Pack",
       description:
         "30+ presets for Waves StudioVerse Instruments with Element 2.0. Bass, Pads, Leads, Keys, Rhythmic and SFX.",
@@ -14,7 +14,7 @@ export default function LuminaireSoundLabPage() {
       thumbnail: "/images/svi_element_preview.png",
     },
     {
-      title: "OBsix Saw — Ableton Sampler Instrument",
+      title: "[Free] OBsix Saw — Ableton Sampler Instrument",
       type: "Ableton Instrument",
       description:
         "A playable sampled instrument built from the iconic saw wave of the Sequential OB-6, carefully captured and shaped into an Ableton Sampler instrument.",
@@ -94,7 +94,7 @@ export default function LuminaireSoundLabPage() {
           </div>
 
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-2xl shadow-black/30 backdrop-blur">
-            <div className="mb-6 flex items-center justify-between text-xs uppercase tracking-[0.25em] text-neutral-400">
+            <div className="mb-6 flex items-center justify-center text-xs uppercase tracking-[0.25em] text-neutral-400">
               <span>Featured</span>
               {/* <span>Audio Preview</span> */}
             </div>
@@ -200,15 +200,15 @@ export default function LuminaireSoundLabPage() {
           </div>
         </section>
 
-        <section id="about" className="border-t border-white/10">
+        <section id="about">
           <div className="mx-auto max-w-4xl px-6 py-25">
             <div>
               <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">
                 About
               </p>
-              <h2 className="text-3xl font-semibold">
+              {/* <h2 className="text-3xl font-semibold">
                 A focused sound design studio.
-              </h2>
+              </h2> */}
             </div>
             <div className="space-y-5 mt-8 text-base leading-8 text-neutral-300">
               <p>
@@ -221,7 +221,7 @@ export default function LuminaireSoundLabPage() {
           </div>
         </section>
 
-        <section id="contact" className="border-t border-white/10">
+        <section id="contact">
           <div className="mx-auto max-w-6xl px-6 py-20 flex flex-col items-center gap-6">
             <p className="text-xs uppercase tracking-[0.35em] text-neutral-400">
               Contact
