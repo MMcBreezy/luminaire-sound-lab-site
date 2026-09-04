@@ -1,26 +1,34 @@
 export default function LuminaireSoundLabPage() {
   const products = [
     {
-      title: "OB-6 Synthwave Presets",
+      title: "Free Waves StudioVerse Instruments Presets",
       type: "Preset Pack",
       description:
-        "Retro leads, basses, pads, and arps designed for cinematic synthwave and night-drive production with Sequential OB-6.",
-      specs: ["60 presets", "Sequential OB-6", "Synthwave / Retrowave"],
+        "30+ presets for Waves StudioVerse Instruments with Element 2.0. Bass, Pads, Leads, Keys, Rhythmic and SFX.",
+      specs: [
+        "30+ presets",
+        "8 Pre-mapped Macros Unique to Each Preset",
+        "Synthwave / Chill / Ambient",
+      ],
+      url: "https://luminairesoundlab.gumroad.com/l/SVI_Element_Free_Preset_Pack",
+      thumbnail: "/images/svi_element_preview.png",
     },
     {
-      title: "Lo-Fi Tape Drums",
-      type: "Sample Pack",
+      title: "OBsix Saw — Ableton Sampler Instrument",
+      type: "Ableton Instrument",
       description:
-        "Dusty one-shots and loops with warmth, grit, and movement for mellow hip-hop and lo-fi beats.",
-      specs: ["120 samples", "One-shots + loops", "Lo-fi / Chillhop"],
+        "A playable sampled instrument built from the iconic saw wave of the Sequential OB-6, carefully captured and shaped into an Ableton Sampler instrument.",
+      specs: ["16 Pre-mapped Macros", "Filter Control", "Envelope Shaping"],
+      url: "https://luminairesoundlab.gumroad.com/l/Live_Sampler_OBsix_Saw",
+      thumbnail: "/images/obsix_saw_preview.png",
     },
-    {
-      title: "Ambient Field Textures",
-      type: "Sample Pack",
-      description:
-        "Atmospheric drones, textures, and tonal layers for ambient, film, and game audio work.",
-      specs: ["90 textures", "WAV 24-bit", "Ambient / Cinematic"],
-    },
+    // {
+    //   title: "Ambient Field Textures",
+    //   type: "Sample Pack",
+    //   description:
+    //     "Atmospheric drones, textures, and tonal layers for ambient, film, and game audio work.",
+    //   specs: ["90 textures", "WAV 24-bit", "Ambient / Cinematic"],
+    // },
   ];
 
   return (
@@ -37,7 +45,7 @@ export default function LuminaireSoundLabPage() {
           </div>
           <nav className="hidden gap-8 text-sm text-neutral-300 md:flex">
             <a href="#packs" className="transition hover:text-white">
-              Packs
+              Products
             </a>
             <a href="#about" className="transition hover:text-white">
               About
@@ -54,16 +62,16 @@ export default function LuminaireSoundLabPage() {
           <div className="space-y-8">
             <div className="space-y-4">
               <p className="text-xs uppercase tracking-[0.35em] text-neutral-500">
-                Sample Packs • Presets • Sound Design
+                Presets • Virtual Instruments • Sample Packs
               </p>
               <h1 className="max-w-3xl text-4xl font-semibold leading-tight md:text-6xl">
                 Original sounds for modern electronic music and game audio.
               </h1>
               <p className="max-w-2xl text-base leading-7 text-neutral-300 md:text-lg">
                 Luminaire Sound Lab creates focused sound tools for audio
-                producers and sound designers: synth presets, one-shots, loops,
-                textures, and cinematic audio resources built for modern
-                workflows.
+                producers and sound designers: synth presets, virtual
+                instruments, one-shots, loops, textures, and cinematic audio
+                resources built for modern workflows.
               </p>
             </div>
 
@@ -99,7 +107,7 @@ export default function LuminaireSoundLabPage() {
                 <div className="mb-4 text-lg font-medium">
                   Free Waves StudioVerse Instruments Presets
                 </div>
-                <div className="mb-6 h-46 rounded-2xl bg-[url('/SVI_Element_Preview.png')] bg-cover bg-center" />
+                <div className="mb-6 h-46 rounded-2xl bg-[url('/images/svi_element_preview.png')] bg-cover bg-center" />
                 {/* <audio controls className="w-full">
                   <source src="/audio/SV_OB6_Test_1.mp3" type="audio/mpeg" />
                 </audio> */}
@@ -137,15 +145,15 @@ export default function LuminaireSoundLabPage() {
           </div>
         </section> */}
 
-        {/* <section id="packs" className="mx-auto max-w-6xl px-6 py-20">
+        <section id="packs" className="mx-auto max-w-6xl px-6 py-20">
           <div className="mb-14">
             <div>
               <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
-                Featured Packs
+                Products
               </p>
-              <h2 className="text-3xl font-semibold md:text-4xl">
+              {/* <h2 className="text-3xl font-semibold md:text-4xl">
                 Built for distinct creative worlds.
-              </h2>
+              </h2> */}
             </div>
           </div>
 
@@ -155,6 +163,11 @@ export default function LuminaireSoundLabPage() {
                 key={product.title}
                 className="flex h-full flex-col rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-lg shadow-black/20"
               >
+                <img
+                  src={product.thumbnail}
+                  alt={product.title}
+                  className="mb-4 h-40 w-full rounded-xl object-cover"
+                />
                 <div className="mb-4 text-xs uppercase tracking-[0.3em] text-neutral-500">
                   {product.type}
                 </div>
@@ -167,23 +180,25 @@ export default function LuminaireSoundLabPage() {
                     <div key={spec}>• {spec}</div>
                   ))}
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 justify-center">
                   <a
-                    href="https://luminairesoundlab.gumroad.com/"
+                    href={
+                      product.url || "https://luminairesoundlab.gumroad.com/"
+                    }
                     target="_blank"
                     rel="noreferrer"
                     className="rounded-2xl border border-white/15 bg-white px-4 py-2 text-sm font-medium text-black transition hover:opacity-90"
                   >
-                    Buy Pack
+                    Get
                   </a>
-                  <button className="rounded-2xl border border-white/15 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/5">
+                  {/* <button className="rounded-2xl border border-white/15 px-4 py-2 text-sm font-medium text-white transition hover:bg-white/5">
                     Hear Demo
-                  </button>
+                  </button> */}
                 </div>
               </article>
             ))}
           </div>
-        </section> */}
+        </section>
 
         <section id="about" className="border-t border-white/10">
           <div className="mx-auto max-w-4xl px-6 py-25">
@@ -206,10 +221,7 @@ export default function LuminaireSoundLabPage() {
           </div>
         </section>
 
-        <section
-          id="contact"
-          className="border-t border-white/10"
-        >
+        <section id="contact" className="border-t border-white/10">
           <div className="mx-auto max-w-6xl px-6 py-20 flex flex-col items-center gap-6">
             <p className="text-xs uppercase tracking-[0.35em] text-neutral-400">
               Contact
